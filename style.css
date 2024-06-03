@@ -1,0 +1,230 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    
+    
+}
+
+.imgbx {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8); 
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+    transition: opacity 0.3s ease; 
+}
+
+.imgbx.open {
+    opacity: 1;
+    z-index: 999;
+}
+
+.formbx {
+    background: white;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+.formbx h2 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #1599db;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+
+.inputbx {
+    margin-bottom: 20px;
+}
+
+.inputbx span {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: #607d8b;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.inputbx input {
+    width: 100%;
+    outline: none;
+    font-weight: 400;
+    border: 0;
+    border-bottom: 1px solid #607d8b;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    color: #607d8b;
+    background: transparent;
+}
+
+.inputbx input[type="submit"] {
+    background: red;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.inputbx input[type="submit"]:hover {
+    background: #f53677;
+}
+
+#closebox{
+  width: 50%;
+  
+}
+
+.remember {
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #607d8b;
+}
+
+.inputbx p {
+    color: #607d8b;
+}
+
+.inputbx p a {
+    color: #ff4584;
+}
+
+.homepage {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.homepage-left {
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+}
+
+.homepage-left h1 {
+    font-size: 45px;
+    
+    font-weight: 700;
+    margin: 0;
+}
+
+.homepage-left h3 {
+    font-size: 30px;
+    font-weight: 500;
+    color: red;
+}
+
+.homepage-left p {
+    line-height: 25px;
+}
+
+.homepage-image img {
+    width: 55rem;
+    height: 50rem;
+    border-radius: 5px;
+    margin-top: 3rem;
+}
+
+.homepage-left button {
+    background: red;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px 40px;
+}
+
+
+/* page -last */
+
+
+.last-page {
+    
+    width: 80%;
+    height: 50%;
+    
+    margin-left: 10%;
+    
+}
+
+
+.last-page h3{
+    padding-top: 5rem;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 40rem;
+    color: red;
+      
+}
+
+.last-page h1{
+    font-weight: 700;
+    font-size: 30px;
+   margin-left: 34rem; 
+}
+
+.last-page-grid{
+    display: flex;
+}
+
+.last-page-grid div{
+    width: 30rem;
+    font-size: 25px;
+    padding: 5%;
+        
+}
+
+.last-page-grid div h5{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.last-page-grid div:hover {
+    background: rgba(167, 162, 155, 0.288);
+    border-radius: 1rem;
+}
+
+
+/* page3-right*/
+.page3{
+    display: flex;
+    
+}
+.page3 img{
+    max-width: 60rem;
+    max-height: 100%;
+}
+
+.page3-right{
+    display: grid;
+}
+
+.page3-right button{
+    width: 20rem;
+}
+
