@@ -216,8 +216,8 @@ section {
     
 }
 .page3 img{
-    max-width: 60rem;
-    max-height: 100%;
+    width: 60rem;
+    height: 40rem;
 }
 
 .page3-right{
@@ -226,5 +226,16 @@ section {
 
 .page3-right button{
     width: 20rem;
+    margin-left: 10rem;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 500;
 }
 
+
+.page3-right button:hover{
+    
+    background-color: red;
+    
+}
